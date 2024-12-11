@@ -1,3 +1,54 @@
-<html>
-  <h1>Big booty latina</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command-Line Checklist</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: black;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .checklist {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .checklist li {
+            margin-bottom: 10px;
+        }
+
+        input[type="checkbox"] {
+            transform: scale(1.2);
+            margin-right: 10px;
+        }
+
+        .blinking-cursor {
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            background-color: #00ff00;
+            animation: blink 1s step-start infinite;
+            vertical-align: middle;
+        }
+
+        @keyframes blink {
+            50% {
+                background-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="checklist">
+        <li><label><input type="checkbox"> Item 1</label></li>
+        <li><label><input type="checkbox"> Item 2</label></li>
+        <li><label><input type="checkbox"> Item 3</label></li>
+    </ul>
+    <div class="blinking-cursor"></div>
+</body>
 </html>
